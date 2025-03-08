@@ -530,11 +530,8 @@ async def on_command_error(ctx, error):
     if isinstance(error, MissingPermissions):
         await ctx.send("❌ Nu ai permisiunea necesară pentru a folosi această comandă!")
 
-buy("WLD", 300)
-buy("WIF", 400)
-buy("DOGE",900)
-print(portofel())
+
         
-# bot.run(TOKEN)
+bot.run(TOKEN)
 
 
